@@ -1,0 +1,107 @@
+/*** Base Style ***/
+body {
+    font-family: "Montserrat", sans serif;
+    color: #282728;
+}
+/*** Grid ***/ 
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+.half-width {
+    float: left; 
+    width: 600px;
+}
+.third-width {
+    float: left;
+    width: 400px;
+}
+/*** Header ***/
+.photo {
+    padding: 0px 120px;
+}
+header h1 {
+    padding: 30px 0 10px 25px;
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+}
+header h1 span {
+    color: #77a466;
+    text-transform: uppercase;
+}
+.top-section p {
+    text-align: left;
+    width: 1200px;
+    padding: 0 120px;
+}
+nav {
+    float: right; 
+    padding-top: 30px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    color: #77a466;
+    font-weight: 500;
+    font-size: 18px;
+    padding-right: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ h2 {
+    color:#77a466;
+    font-weight: bold;
+    text-transform: uppercase; 
+ }
+ /*** Middle Section ***/
+ h2 {
+    padding: 10px 120px;
+ }
+ .third-width ul {
+    color: #77a466;
+    list-style: none;
+    line-height: 40px;
+ }
+ .third-width p {
+    padding: 20px;
+ }
+ .third-width h3 {
+    padding: 20px;
+ }
+/*** Footer ****/ 
+footer {
+    color: #000000;
+    font-variant: uppercase;
+    font-family: "Montserrat", sans serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+footer span {
+    color: #77a466;
+    font-family: "Galada", cursive; 
+}
+/*** Reviews page ****/
+.review-top-section {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color:#77a466;
+    padding: 20px;
+}
+.reviews {
+    font-style: italic;
+    font-size: 20px;
+    font-family: "georgia";
+    font-weight: light;
+    line-height: 20px;
+    text-align: center;
+}
+.reviews p {
+    padding: 10px;
+    border: 1px dashed grey;
+}
