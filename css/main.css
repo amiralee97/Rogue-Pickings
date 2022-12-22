@@ -105,3 +105,8 @@ footer span {
     padding: 10px;
     border: 1px dashed grey;
 }
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
